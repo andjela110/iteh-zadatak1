@@ -1,0 +1,19 @@
+* {
+    overflow-x: hidden;
+}
+
+#tekstDobrodosli {
+    display: block;
+    width: fit-content;
+    padding: 15px 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    border: none;
+    background: #bdbdbd;
+    outline: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    color: #FFF;
+    cursor: pointer;
+    transition: .3s;
+}

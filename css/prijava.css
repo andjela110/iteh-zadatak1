@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.bodi {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #e6c4bc;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bodi .container {
+    width: 400px;
+    min-height: 400px;
+    background: #FFF;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+    padding: 40px 30px;
+}
+
+.bodi .container .login-text {
+    color: #111;
+    font-weight: 500;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 20px;
+    display: block;
+    text-transform: capitalize;
+}
+
+.bodi .container .login-email .input-group {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 25px;
+}
+
+.bodi .container .login-email .input-group input {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #e7e7e7;
+    padding: 15px 20px;
+    font-size: 1rem;
+    border-radius: 30px;
+    background: transparent;
+    outline: none;
+    transition: .3s;
+}
+
+.bodi .container .login-email .input-group input:focus,
+.bodi .container .login-email .input-group input:valid {
+    border-color: #e6c4bc;
+    ;
+}
+
+.bodi .container .login-email .input-group .btn {
+    display: block;
+    width: 100%;
+    padding: 15px 20px;
+    text-align: center;
+    border: none;
+    background: #e6c4bc;
+    outline: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    color: #FFF;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.bodi .container .login-email .input-group .btn:hover {
+    transform: translateY(-5px);
+    background: #e6c4bc;
+    ;
+}
+
+.bodi .login-register-text {
+    color: #111;
+    font-weight: 600;
+}
+
+.bodi .login-register-text a {
+    text-decoration: none;
+    color: #e6c4bc;
+    ;
+}
+
+@media (max-width: 430px) {
+    .bodi .container {
+        width: 300px;
+    }
+
+}
